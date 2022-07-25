@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>King Toot's Music Store/Contacto</title>
+</head>
+
+<body>
+      <header>
+        <!--barra navegadora-->
+        <div class="navbar1" data-aos="fade-down">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-light" href="../index.html">
+                    <img src="../img/kingtoots.png" class="border border-dark border-3" alt="toot" width="" height="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link text-light fw-bold text-uppercase" href="../index.html">Inicio</a>
+                      </li>  
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold text-uppercase" href="../secciones/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold text-uppercase" href="../secciones/ubicacion.html">Ubicacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold text-uppercase" href="../secciones/proveedores.html">Proveedores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold text-uppercase" href="../secciones/Contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </header>
+        
+    
+      <!--titulos-->
+    <section class="bg-dark py-2 mb-4">
+      <div class="container px-4 px-lg-5 my-5">
+          <div class="text-center text-white">
+              <h1 class="display-4 fw-bolder">Deja un mensaje</h1>
+          </div>
+      </div>
+    </section>
+       <!--formulario--> 
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 text-white bg-dark">
+                <div class="card-body text-white bg-dark">
+           
+                <div class = "container">
+                                 <form id="contact-form" role="form">   
+                <div class="controls mb-3">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label for="form_name">Nombre *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Escriba su nombre *" required="required" data-error="Es necesario el nombre.">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Apellido *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Escriba su apellido *" required="required" data-error="Es necesario el apellido.">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label for="form_email">E-mail *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Ingrese su e-mail, por favor *" required="required" data-error="Es necesario validar el E-mail.">                               
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_need">Seleccione una opcion *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    <option value="" selected disabled>--Elija una opcion--</option>
+                                    <option >Compra</option>
+                                    <option >Venta</option>
+                                    <option >Medios de pago</option>
+                                    <option >Other</option>
+                                </select>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Escriba un mensaje aqui." rows="4" required="required" data-error="Por favor, deje un mensaje."></textarea
+                                    >
+                                </div>    
+                            </div> 
+                        <div class="col-md-12">   
+                            <input type="submit" class="enviar btn btn-light btn-send  pt-2 btn-block text-white "
+                                 value="Enviar Mensaje" >     
+                    </div>             
+                    </div>
+            </div>
+             </form>
+            </div>
+                </div>
+        </div>
+        </div> 
+    </div>
+    </div>
+    </main> 
+
+  <!--footer-->
+  <footer class="text-center text-lg-start mt-5" data-aos="fade-up"> 
+    <div class="container p-4">
+      <div class="row">
+        <!--columna-contacto-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold d-flex justify-content-center">Contacto</h5>
+          <div class="d-flex justify-content-center">
+            <ul>                
+              <li class="contact1">Whatsapp: <a href="https://wa.me/+541131248113" class="cont" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></li>
+              <li class="contact2">Telegram:<a href="https://telegram.me/lucasepaul" class="cont sharer button"><i class="fa fa-3x fa-telegram"></i></a></li>
+              <li class="contact3">E-mail:<a href="lucasepaul21@gmail.com" class="cont sharer button"><i class="fa fa-3x fa-envelope-square"></i></a> </li>
+              <li class="contact4">Facebook messenger:<a href="https://www.messenger.com/t/lucasepaul" class="cont sharer button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="cont bi bi-messenger" viewBox="0 0 16 16">
+                <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+              </svg></a></li>  
+              <li class="contact5">Horario de atención: 10am a 7pm </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--columna-redes-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold d-flex justify-content-center">Redes Sociales</h5>
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li class="contact1">Instagram: <a href="https://www.instagram.com/elladoquenoves/" class="fa fa-instagram"></a></li>
+              <li class="contact2">Facebook: <a href="https://www.facebook.com/ElLadoQueNoVes" class="fa fa-facebook"></a></li>
+              <li class="contact3">Linkedin: <a href="https://www.linkedin.com/in/lucasepaul/" class="fa fa-linkedin"></a></li>
+              <li class="contact4">Youtube: <a href="https://www.youtube.com/watch?v=FhSIbf1hWxo" class="fa fa-youtube"></a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--pie-de-pagina-->
+    <div class="text-center p-3 text-light" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-light" href="">kingtootsmusicstore.com</a>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>

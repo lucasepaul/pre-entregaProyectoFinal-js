@@ -1,0 +1,11 @@
+/*productos*/
+$instrumentos:(
+    1: $primary,
+    2: $primary-dark,
+    3: $secondary,
+    4: $secondary-dark,  
+);
+@each $ins, $color in $instrumentos {
+        .inst--#{$ins}{
+            background-color: $color;
+        }} 

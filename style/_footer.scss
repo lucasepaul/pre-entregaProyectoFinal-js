@@ -1,0 +1,46 @@
+/*footer*/
+footer{
+    background-color: $primary;
+    border: 2px solid black;
+    ul, li { 
+      list-style-type: none; 
+    }}
+    
+    /*contacto*/ 
+
+    .contact1, .contact2, .contact3, .contact4, .contact5{
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .contact5{
+      margin-top: 20px;
+    }
+    
+    .cont {
+      margin: 5px;
+      font-size: 30px;
+      text-decoration: none;
+      color:black;
+    }
+    
+    .cont:hover{
+      opacity: 0.7;
+  }
+
+
+    /*social media*/ 
+
+    .fa {
+      margin: 5px;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      color:black;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
